@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Headers from './Headers.jsx'
+import Headers from './Headers.jsx';
+import VideoPlayer from './VideoPlayer.jsx'
 
 const bodyStyle = {
 	width: '100%',
@@ -15,8 +16,10 @@ class App extends React.Component {
   }
   render() {
   	return (
-  	  <div className='d-flex flex-column h-100 mt-5'>
+  	  <div className='container d-flex flex-column h-100 mt-5'>
   	    <Headers />
+  	    <hr class="featurette-divider" />
+  	    <VideoPlayer />
   	  </div>
   	  )
   }

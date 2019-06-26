@@ -1,2 +1,1 @@
-brodie-wood
-Professional webpage for Peter Brodie Wood
+Webpage repo for Peter Brodie Wood
